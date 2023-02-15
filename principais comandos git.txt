@@ -1,0 +1,33 @@
+git init - (INICIANDO O GIT NA PASTA DO PROJETO)
+
+git status (PARA VER O STATUS DOS ARQUIVOS)
+
+git add . (PARA ADICIONAR TODOS OS ARQUIVOS)
+
+git clean -f (REMOVE OS ARQUIVOS QUE NAO FORAM ADICIONADOS COM O GIT ADD .)
+
+git commit -a -m "criacao do arquivo html" ( -A PARA INCLUIR TODOS OS ARQUIVOS NO COMMIT -M PARA ADICIONAR UMA MSG)
+
+git remote add origin https://github.com/dev-leo-cunha/aprendendo_git.git (CONEXAO PC COM O SITE GIT)
+
+git branch -M main (NOMEANDO O PRINCIPAL BRANCK COM MAIN)
+
+git push -u origin main (ENVIANDO O CODIGO DO PC PARA O GITHUB)
+
+git checkout -b "teste" (-B SIGNIFICA CRIAR UM NOVO BRANCH)
+
+git push --set-upstream origin teste (CRIANDO O BRANCH TESTE NO REPOSITORIO)
+
+git checkout main (PARA ALTERAR O BRANCH PARA MAIN)
+
+git merge teste (UNE O BRACH QUE ESTOU (NO CASO O MAIN) COM O BRANCH TESTE)
+
+git pull (PEGA AS ATUALIZACOES FEITAS NO REPOSITORIO E TRAZ PARA O PC)
+
+git clone (URL AQUI) (AQUI O NOME DE UMA PASTA PARA O CLONE)
+
+git checkout (AQUI O ARQUIVO EX: git checkout index.html) (REMOVE A ALTERACAO DO ARQUIVO ANTES DE FAZER O COMMIT)
+
+git log (MOSTRA TODOS OS COMMITS E ALTERACOES)
+
+
